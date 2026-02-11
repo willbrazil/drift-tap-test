@@ -6,23 +6,15 @@
     "description": "Entity type for Notion pages. Reference, search, and display Notion pages inline in conversations.",
     "author": { "name": "Will Brazil" },
     "license": "MIT",
-    "repository": "willbrazil/drift-entity-notion-page",
+    "repository": "willbrazil/drift-integration-notion",
     "latest": "1.0.0",
     "versions": {
-      "1.0.0": {
-        "ref": "v1.0.0",
-        "driftCompat": ">=0.8.0",
-        "publishedAt": "2026-02-09T00:00:00Z"
-      }
+      "1.0.0": { "ref": "v1.0.0", "driftCompat": ">=0.8.0", "publishedAt": "2026-02-09T00:00:00Z" }
     },
     "keywords": ["notion", "page", "docs", "wiki"],
     "icon": "file-text",
-    "provides": {
-      "entities": ["notion-page"]
-    },
-    "dependencies": {
-      "integrations": ["notion"]
-    },
+    "provides": { "entities": ["notion-page"] },
+    "dependencies": { "integrations": ["notion"] },
     "installCount": 64,
     "verified": false
   },
@@ -33,24 +25,36 @@
     "description": "Entity type for Figma frames. Embed and reference design frames directly in your workstreams.",
     "author": { "name": "Will Brazil" },
     "license": "MIT",
-    "repository": "willbrazil/drift-entity-figma-frame",
+    "repository": "willbrazil/drift-integration-figma",
     "latest": "0.1.0",
     "versions": {
-      "0.1.0": {
-        "ref": "v0.1.0",
-        "driftCompat": ">=0.8.0",
-        "publishedAt": "2026-02-11T00:00:00Z"
-      }
+      "0.1.0": { "ref": "v0.1.0", "driftCompat": ">=0.8.0", "publishedAt": "2026-02-11T00:00:00Z" }
     },
     "keywords": ["figma", "frame", "design", "component"],
     "icon": "frame",
-    "provides": {
-      "entities": ["figma-frame"]
-    },
-    "dependencies": {
-      "integrations": ["figma"]
-    },
+    "provides": { "entities": ["figma-frame"] },
+    "dependencies": { "integrations": ["figma"] },
     "installCount": 21,
     "verified": false
+  },
+  {
+    "id": "todoist-task",
+    "type": "entity",
+    "displayName": "Todoist Task",
+    "description": "Entity type for Todoist tasks. Reference and display tasks inline in conversations.",
+    "author": { "name": "Will Brazil" },
+    "license": "MIT",
+    "repository": "willbrazil/drift-productivity-suite",
+    "latest": "1.0.0",
+    "versions": {
+      "1.0.0": { "ref": "v1.0.0", "driftCompat": ">=0.8.0", "publishedAt": "2026-02-11T00:00:00Z" }
+    },
+    "keywords": ["todoist", "task", "todo", "entity"],
+    "icon": "check-square",
+    "provides": { "entities": ["todoist-task"] },
+    "dependencies": { "integrations": ["todoist"] },
+    "installCount": 15,
+    "verified": false,
+    "_multiPackage": { "path": "packages/todoist-task" }
   }
 ]
