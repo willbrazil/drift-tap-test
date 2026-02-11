@@ -1,0 +1,25 @@
+{
+  "id": "figma-inspect",
+  "type": "integration",
+  "displayName": "Figma Inspector",
+  "description": "Reference Figma frames and components inline in Drift conversations. Paste a Figma link to preview designs.",
+  "author": { "name": "Will Brazil" },
+  "license": "MIT",
+  "repository": "willbrazil/drift-integration-figma",
+  "latest": "0.1.0",
+  "versions": {
+    "0.1.0": {
+      "ref": "v0.1.0",
+      "driftCompat": ">=0.8.0",
+      "publishedAt": "2026-02-11T00:00:00Z"
+    }
+  },
+  "keywords": ["figma", "design", "inspect", "preview"],
+  "icon": "figma",
+  "provides": {
+    "integrations": ["figma"],
+    "methods": ["get_frame", "list_components"]
+  },
+  "installCount": 33,
+  "verified": false
+}

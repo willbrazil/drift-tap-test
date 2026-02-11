@@ -1,0 +1,27 @@
+{
+  "id": "figma-frame",
+  "type": "entity",
+  "displayName": "Figma Frame",
+  "description": "Entity type for Figma frames. Embed and reference design frames directly in your workstreams.",
+  "author": { "name": "Will Brazil" },
+  "license": "MIT",
+  "repository": "willbrazil/drift-entity-figma-frame",
+  "latest": "0.1.0",
+  "versions": {
+    "0.1.0": {
+      "ref": "v0.1.0",
+      "driftCompat": ">=0.8.0",
+      "publishedAt": "2026-02-11T00:00:00Z"
+    }
+  },
+  "keywords": ["figma", "frame", "design", "component"],
+  "icon": "frame",
+  "provides": {
+    "entities": ["figma-frame"]
+  },
+  "dependencies": {
+    "integrations": ["figma"]
+  },
+  "installCount": 21,
+  "verified": false
+}

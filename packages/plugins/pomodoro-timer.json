@@ -1,0 +1,24 @@
+{
+  "id": "pomodoro-timer",
+  "type": "plugin",
+  "displayName": "Pomodoro Timer",
+  "description": "A focus timer plugin for Drift. Tracks work sessions and breaks with configurable intervals.",
+  "author": { "name": "Will Brazil" },
+  "license": "MIT",
+  "repository": "willbrazil/drift-plugin-pomodoro",
+  "latest": "1.0.0",
+  "versions": {
+    "1.0.0": {
+      "ref": "v1.0.0",
+      "driftCompat": ">=0.8.0",
+      "publishedAt": "2026-02-10T00:00:00Z"
+    }
+  },
+  "keywords": ["pomodoro", "timer", "focus", "productivity"],
+  "icon": "clock",
+  "provides": {
+    "methods": ["start_timer", "stop_timer", "get_status"]
+  },
+  "installCount": 42,
+  "verified": false
+}

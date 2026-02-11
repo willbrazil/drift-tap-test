@@ -1,0 +1,21 @@
+{
+  "id": "daily-journal",
+  "type": "plugin",
+  "displayName": "Daily Journal",
+  "description": "End-of-day journaling plugin. Summarizes your workstreams and prompts for reflections.",
+  "author": { "name": "Will Brazil" },
+  "license": "MIT",
+  "repository": "willbrazil/drift-plugin-journal",
+  "latest": "0.2.0",
+  "versions": {
+    "0.2.0": {
+      "ref": "v0.2.0",
+      "driftCompat": ">=0.8.0",
+      "publishedAt": "2026-02-08T00:00:00Z"
+    }
+  },
+  "keywords": ["journal", "reflection", "daily", "notes"],
+  "icon": "book-open",
+  "installCount": 18,
+  "verified": false
+}

@@ -1,0 +1,11 @@
+{
+  "id": "featured",
+  "title": "Will's Picks",
+  "description": "Hand-picked packages for productivity and design workflows",
+  "packages": [
+    { "type": "plugin", "id": "pomodoro-timer" },
+    { "type": "integration", "id": "notion-sync" },
+    { "type": "entity", "id": "notion-page" },
+    { "type": "integration", "id": "figma-inspect" }
+  ]
+}
